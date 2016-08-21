@@ -8,7 +8,7 @@ function requestProcess() {
 export function get(){
   return dispatch => {
     dispatch( requestProcess() )
-    return request.get('https://itunes.apple.com/jp/rss/topsongs/limit=25/json')
+    return request.get('https://itunes.apple.com/rss/topsongs/limit=50/json')
           .then(res => {
             dispatch({
               type: 'SUCCESS_GET_RANKING',
