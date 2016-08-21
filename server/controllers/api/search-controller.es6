@@ -18,7 +18,7 @@ export default new class SearchController {
   }
 
   async music (req, res){
-    var data = await SearchMusic({query: req.query.q || '宇多田ヒカル'})
+    var data = await SearchMusic({query: req.query.q || ''})
     res.json(data)
   }
 
