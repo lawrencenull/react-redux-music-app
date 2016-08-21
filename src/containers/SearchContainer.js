@@ -25,7 +25,7 @@ class SearchContainer extends Component {
 
   componentDidMount () {
     const { searchActionBind } = this.props
-    let query = this.props.location.query.q || '宇多田ヒカル'
+    let query = this.props.location.query.q || ''
     searchActionBind.search(query)
   }
 
