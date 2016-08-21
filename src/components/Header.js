@@ -11,14 +11,14 @@ class Header extends React.Component {
         <div>
             <header>
               <div className="header-content">
-                <Link to="/"><h1>MusicM</h1></Link>
+                <Link to="/"><h1>Music</h1></Link>
                 <TextField
                   className="font"
                   style={{width: '640px'}}
                   underlineFocusStyle={{display:'none'}}
                   inputStyle={{color:'#fff',borderRadius:6}}
                   hintStyle={{color:'#fff'}}
-                  hintText="アーティスト名・曲名を入力"
+                  hintText="Search for a song or artist"
                   ref="SearchInputField"
                   onKeyDown={e => enterSearchEdit(e, this.refs.SearchInputField.getValue())}
                 />
