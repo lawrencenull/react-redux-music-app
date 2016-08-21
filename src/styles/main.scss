@@ -24,7 +24,7 @@ header {
   left:0;
   right:0;
   width: 100%;
-  background: #F57C00;
+  background: rgb(33,150,243);
   .header-content {
     display: flex;
     justify-content: flex-start;
@@ -102,15 +102,15 @@ main {
   position: absolute;
   top: 7px;
   left: 12px;
-  background-color: #373d3f;
+  background-color: rgb(33,150,243);
   &::-webkit-progress-bar {
-    background-color: #373d3f;
+    background-color: rgb(33,150,243);
   }
   &::-moz-progress-bar {
-    background-color: lighten(#373d3f, 5%);
+    background-color: lighten(rgb(33,150,243), 5%);
   }
   &::-webkit-progress-value {
-    background-color: lighten(#373d3f, 5%);
+    background-color: lighten(rgb(33,150,243), 5%);
   }
 }
 .media-control--seekbar {
